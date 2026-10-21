@@ -79,7 +79,7 @@ export default function Skills() {
                 },
                 {
                   name: 'JavaScript',
-                  icon: 'https://cdn.simpleicons.org/javascript/F7DF1E',
+                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg',
                 },
               ].map((tech) => (
                 <div
