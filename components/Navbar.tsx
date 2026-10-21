@@ -38,7 +38,7 @@ export default function Navbar() {
       id="nav"
       className="flex justify-between text-xl items-center fixed  h-16 w-full bg-[#131515]/80 backdrop-blur-md border-b border-white/10 z-50 "
     >
-      <Image src={'/LoGO-white.png'} alt="" width={100} height={100} />
+      <Image src={'/logoWhite.png'} alt="" width={100} height={100} />
       <div className="hidden sm:flex md:flex justify-around w-150 font-bold text-white ">
         {navLinks.map((link, index) => {
           return (
