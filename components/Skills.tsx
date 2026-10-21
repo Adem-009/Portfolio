@@ -67,19 +67,19 @@ export default function Skills() {
               {[
                 {
                   name: 'Next.js',
-                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nextdotjs.svg,
+                  icon: '/nextdotjs.svg',
                 },
                 {
                   name: 'React',
-                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg',
+                  icon: '/react.svg',
                 },
                 {
                   name: 'TypeScript',
-                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/typescript.svg',
+                  icon: '/typescript.svg',
                 },
                 {
                   name: 'JavaScript',
-                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg',
+                  icon: '/javascript.svg',
                 },
               ].map((tech) => (
                 <div
@@ -113,15 +113,15 @@ export default function Skills() {
               {[
                 {
                   name: 'Tailwind CSS',
-                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tailwindcss.svg',
+                  icon: '/tailwindcss.svg',
                 },
                 {
                   name: 'HTML5',
-                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg',
+                  icon: '/html5.svg',
                 },
                 {
                   name: 'CSS3',
-                  icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+                  icon: '/css.svg',
                 },
               ].map((tech) => (
                 <div
@@ -153,7 +153,7 @@ export default function Skills() {
 
             <div className="flex items-center gap-3 p-3 rounded-xl bg-white/5 border border-white/10 w-fit">
               <Image
-                src="https://cdn.simpleicons.org/framer/0055FF"
+                src="/framer.svg"
                 alt="Framer Motion"
                 width={24}
                 height={24}
@@ -177,10 +177,10 @@ export default function Skills() {
 
             <div className="flex flex-wrap gap-3 mt-4">
               {[
-                { name: 'Git', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg' },
+                { name: 'Git', icon: '/git.svg' },
                 {
                   name: 'GitHub',
-                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg',
+                  icon: '/github.svg',
                 },
                 {
                   name: 'VS Code',
@@ -188,7 +188,7 @@ export default function Skills() {
                 },
                 {
                   name: 'Vercel',
-                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vercel.svg',
+                  icon: '/vercel.svg',
                 },
               ].map((tech) => (
                 <div
