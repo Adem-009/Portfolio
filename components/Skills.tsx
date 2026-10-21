@@ -67,15 +67,15 @@ export default function Skills() {
               {[
                 {
                   name: 'Next.js',
-                  icon: 'https://cdn.simpleicons.org/nextdotjs/ffffff',
+                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nextdotjs.svg,
                 },
                 {
                   name: 'React',
-                  icon: 'https://cdn.simpleicons.org/react/61DAFB',
+                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg',
                 },
                 {
                   name: 'TypeScript',
-                  icon: 'https://cdn.simpleicons.org/typescript/3178C6',
+                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/typescript.svg',
                 },
                 {
                   name: 'JavaScript',
@@ -113,11 +113,11 @@ export default function Skills() {
               {[
                 {
                   name: 'Tailwind CSS',
-                  icon: 'https://cdn.simpleicons.org/tailwindcss/06B6D4',
+                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tailwindcss.svg',
                 },
                 {
                   name: 'HTML5',
-                  icon: 'https://cdn.simpleicons.org/html5/E34F26',
+                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg',
                 },
                 {
                   name: 'CSS3',
@@ -177,10 +177,10 @@ export default function Skills() {
 
             <div className="flex flex-wrap gap-3 mt-4">
               {[
-                { name: 'Git', icon: 'https://cdn.simpleicons.org/git/F05032' },
+                { name: 'Git', icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg' },
                 {
                   name: 'GitHub',
-                  icon: 'https://cdn.simpleicons.org/github/ffffff',
+                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg',
                 },
                 {
                   name: 'VS Code',
@@ -188,7 +188,7 @@ export default function Skills() {
                 },
                 {
                   name: 'Vercel',
-                  icon: 'https://cdn.simpleicons.org/vercel/ffffff',
+                  icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vercel.svg',
                 },
               ].map((tech) => (
                 <div
