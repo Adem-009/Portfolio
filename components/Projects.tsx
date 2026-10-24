@@ -1,6 +1,6 @@
 'use client';
 import { PinContainer } from './ui/3d-pin';
-import Image from ""
+import Image from "'next/image'"
 export default function Projects() {
   const MyProjects = [
     { mainTitle: 'Sweet Shop', image: '/sweetshop-bg.jpg
@@ -39,7 +39,7 @@ export default function Projects() {
             </div>
 
             <div className="flex flex-1 w-full rounded-lg mt-4 bg-[#131515] border border-white/5 overflow-hidden relative">
-              <div className="absolute inset-0 bg-gradient-to-tr from-emerald-500/10 via-transparent to-transparent opacity-40" />
+              <Image src={project.image} fill className="absolute inset-0 bg-gradient-to-tr from-emerald-500/10 via-transparent to-transparent opacity-40" />
             </div>
           </div>
         </PinContainer>
