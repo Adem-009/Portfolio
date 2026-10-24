@@ -2,7 +2,7 @@
 import { PinContainer } from './ui/3d-pin';
 export default function Projects() {
   const MyProjects = [
-    { mainTitle: 'in progress', image: '', desc: '', linkTitel: '/', link: '/' },
+    { mainTitle: 'Sweet Shop', image: '', desc: 'E-Commerce Page List', linkTitel: '/Sweet Shop', link: '/https://sweet-shop1-rho.vercel.app/' },
    
   ];
   return (
