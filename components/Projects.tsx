@@ -1,10 +1,10 @@
 'use client';
 import { PinContainer } from './ui/3d-pin';
-import Image from "'next/image'"
+import Image from 'next/image';
 export default function Projects() {
   const MyProjects = [
-    { mainTitle: 'Sweet Shop', image: '/sweetshop-bg.jpg
-', desc: 'E-Commerce Page List', linkTitel: '/Sweet Shop', link: 'https://sweet-shop1-rho.vercel.app/' },
+    { mainTitle: 'Sweet Shop', image: "/deserts.png", desc: 'E-commerce Page List with Cart.', linkTitel: '/SweetShop.com', link: 'https://sweet-shop1-6dthd8sl7-adem-009.vercel.app/' },
+    { mainTitle: 'IP Address Tracker', image: "/ipAddressTracker.png", desc: 'Interactive IP and geolocation tracker.', linkTitel: '/IPAddressTracker.com', link: 'https://ip-address-tracker-mocha-kappa.vercel.app/' },
    
   ];
   return (
@@ -23,7 +23,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:grid-cols-2 gap-15">
         {MyProjects.map((project,index)=>{
           return(
-            <PinContainer key={index}
+            <PinContainer  key={index}
           title={project.linkTitel}
           href={project.link}
           containerClassName="w-full flex items-center justify-center"
@@ -38,8 +38,8 @@ export default function Projects() {
               </span>
             </div>
 
-            <div className="flex flex-1 w-full rounded-lg mt-4 bg-[#131515] border border-white/5 overflow-hidden relative">
-              <Image src={project.image} fill className="absolute inset-0 bg-gradient-to-tr from-emerald-500/10 via-transparent to-transparent opacity-40" />
+            <div className="flex flex-1 w-full h-[180px] rounded-lg mt-4 bg-[#131515] border border-white/5 overflow-hidden relative">
+              <Image quality={100} alt='bg' src={project.image} fill className="object-top object-cover   " />
             </div>
           </div>
         </PinContainer>
