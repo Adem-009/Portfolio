@@ -30,6 +30,7 @@ export const PinContainer = ({
 
   return (
     <a
+      target="_blank"
       className={cn(
         "relative group/pin z-0  cursor-pointer",
         containerClassName
